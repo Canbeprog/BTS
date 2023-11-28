@@ -17,5 +17,12 @@ public class HomeController {
 	  return "index";
   }
 	
+	//텟,ㅡ트 이동
+	@GetMapping("test")
+  public String test() {
+		
+		log.info("index 페이지 출력");
+	  return "test.html";
+  }	
 	
 }
